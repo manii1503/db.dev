@@ -1,13 +1,3 @@
 <?php
-/**
-* Configuration for database connection
-*
-*/
-$host = "localhost";
-$username = "root";
-$password = "";
-$dbname = "test"; // will use later
-$dsn = "mysql:host=$host;dbname=$dbname"; // will use later
-$options = array(
-PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-);
+require_once ('config.php'); // This is where the username and password are currently stored (hardcoded in variables)
+?>
